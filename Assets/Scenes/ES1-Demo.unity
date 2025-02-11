@@ -1645,7 +1645,7 @@ GameObject:
   - component: {fileID: 550678300}
   m_Layer: 0
   m_Name: BlocBase
-  m_TagString: Untagged
+  m_TagString: ResetBox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3074,6 +3074,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1530374473}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4fdda27257f288f488badc6c00b6ffa3,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1530374474}
   m_SourcePrefab: {fileID: 100100000, guid: 4fdda27257f288f488badc6c00b6ffa3, type: 3}
 --- !u!1001 &1449350631
 PrefabInstance:
@@ -3218,7 +3222,7 @@ GameObject:
   - component: {fileID: 1472675592}
   m_Layer: 0
   m_Name: Terminus
-  m_TagString: Untagged
+  m_TagString: ResetBox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3722,6 +3726,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 18a858a33cffa1e42a26c9e6838fb64b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1530374474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530374466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4818db2b97a89bd41b6654bd69e038dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1574531838
